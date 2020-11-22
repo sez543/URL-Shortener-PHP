@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/static_style.css" />
+    <title>Sh.dev</title>
+    <script src="../static_scripts/index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/loadjs/4.2.0/loadjs.js"></script>
+  </head>
+  <body>
+    <div id="container" class="darkmode">
+      <div class="side_button">
+        <div class="fill">
+          <img src="../resources/images/light_moon.svg" alt="" class="light" />
+          <img src="../resources/images/dark_moon.svg" alt="" class="dark" />
+        </div>
+      </div>
+      <section>
+        <div class="window">
+          <form action="" method="POST">
+            <input
+              type="text"
+              name="origin"
+              id="origin"
+              placeholder="Enter your origin here"
+            />
+            <input
+              type="text"
+              name="target"
+              id="target"
+              placeholder="Enter your target slug here"
+            />
+            <div class="button">
+              <input type="submit" value="Generate" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
